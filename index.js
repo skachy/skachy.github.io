@@ -1,23 +1,5 @@
 
-
-var password = "test123";
-var response;
-var entryCount = 0;
-var entryLimit = 3;
-var error = false;
-
-while(response != password && !error){
-     if(entryCount < entryLimit){
-          response = window.prompt("Enter Password");
-          entryCount++;
-     } else {
-          error = true;
-     }
-}
-
-if(error){
-     alert("Too many entries");
-} else {
-     alert("Success");
-}
+var name = window.prompt("what is your name?");
+var age = window.prompt("How old are you?");
+document.write('Hey ' + name + ', How are you today? Do you like being ' + age + ' years')
 
