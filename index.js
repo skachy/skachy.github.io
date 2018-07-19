@@ -8,12 +8,12 @@ document.write('Hey ' + name + ', How are you today? Do you like being ' + age +
 
 */
 
-var vekt = window.prompt('VEKT (I KILO)')
-var høyde = window.prompt('HØYDE (I METER)')
+var vekt = window.prompt('VEKT (KILO)')
+var høyde = window.prompt('HØYDE (METER)')
 
 var bmi = vekt / (høyde * høyde)
 
-alert(bmi)
+alert('Din BMI ER: ' + bmi)
 
 
 
